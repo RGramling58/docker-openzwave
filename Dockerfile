@@ -76,6 +76,7 @@ WORKDIR		$HOME
 
 RUN			pip install cython==0.15
 RUN			pip install louie
+RUN			pip install gevent
 RUN			pip install flask-socketio
 
 ################################################################################
