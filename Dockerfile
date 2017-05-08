@@ -77,6 +77,9 @@ WORKDIR		$HOME
 
 RUN			pip install Cython
 RUN			pip install 'Louie>=1.1'
+RUN			pip install 'urwid>=1.1.1'
+RUN			pip install gevent
+RUN			pip install flask-socketio
 
 ################################################################################
 USER		python_user
